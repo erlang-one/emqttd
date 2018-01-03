@@ -20,8 +20,6 @@
 
 -behaviour(gen_event).
 
--include_lib("lager/include/lager.hrl").
-
 -export([init/1, handle_call/2, handle_event/2, handle_info/2,
          terminate/2, code_change/3]).
 
